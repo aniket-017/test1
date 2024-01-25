@@ -1,0 +1,30 @@
+/* Home.css */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .col {
+    margin-top: 150px;
+  }
+  
+  .col1 {
+    flex: 50%;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 20px;
+  }
+
+  .col1>.three{
+font-weight: bold;
+color: #004080; 
+  }
+  
+  .col2 {
+    flex: 40%;
+  }
+  
